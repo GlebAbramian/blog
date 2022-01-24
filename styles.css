@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    color: #7e1f00;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-left: 10px;
+    font-family: Jellee-Roman,AdobeInvisFont,MyriadPro-Regular;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    background-color: rgb(235, 217, 217);
+    color: #696969;
+    font-family: Ubuntu,AdobeInvisFont,MyriadPro-Regular;
+    
+}
+
+
+.header_section{
+    display: flex;
+    align-items: center;
+}
+
+.header_item{
+    position: relative;
+    padding: 20px 15px;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+.header_item:hover{
+    background-color: tomato;
+    border-radius: 5px;
+}
+
+.headerLogo{
+    font-weight: bold;
+}
+
+.headerButton{
+    cursor: pointer;
+    margin-left: 70px;
+    margin-right: 40px;
+}
+
+
+.container{
+    position: relative;
+    text-align: center;
+    display: flex;
+}
+
+.flex_container{
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 900px;
+    width: 1400px;
+    align-items: center;
+    justify-content: center;
+    bottom: -200px;
+    margin: 0 50px;
+    color: violet;
+   
+}
+
+.flex_item{
+    flex: auto;
+    margin: 0 50px;
+    font-family: Ubuntu-Bold,AdobeInvisFont,MyriadPro-Regular;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.button{
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    bottom: 400px;
+    margin-left: 50px;
+}
+
+.eu{
+    margin: 165px;
+    border-radius: 8px;
+    background-color: #FACF8C;
+    border: midnightblue;
+}
+
+.asia{
+    margin: 165px;
+    border-radius: 8px;
+    background-color: #FDC0E3;
+    border: midnightblue;
+}
+
+.champ{
+    margin: 165px;
+    border-radius: 8px;
+    background-color: #93D08B;
+    border: midnightblue;
+}
+
+.cup{
+    margin: 165px;
+    border-radius: 8px;
+    background-color: #FEA35D;
+    border: midnightblue;
+}
+
+
+
+
+
+
+
+
+.grid {
+    display: grid; 
+ 
+    grid-template-rows: 500px 391px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    gap: 0px;
+    height: 100%;
+    
+ }
+   
+ #item-0 {
+ 
+    background-color: #ffffff; 
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 3;
+    grid-column-end: 2;
+    
+ }
+ #item-1 {
+ 
+    background-color: #BDEA8A; 
+    grid-row-start: 1;
+    grid-column-start: 2;
+ 
+    grid-row-end: 2;
+    grid-column-end: 4;
+    
+ }
+ #item-2 {
+ 
+    background-color: #D9E4A6; 
+    grid-row-start: 2;
+    grid-column-start: 2;
+ 
+    grid-row-end: 3;
+    grid-column-end: 3;
+    
+ }
+ #item-3 {
+ 
+    background-color: #9A7957; 
+    grid-row-start: 2;
+    grid-column-start: 3;
+ 
+    grid-row-end: 3;
+    grid-column-end: 4;
+    
+ }
+ #item-4 {
+ 
+    background-color: #f7dfdf; 
+    grid-row-start: 1;
+    grid-column-start: 4;
+ 
+    grid-row-end: 2;
+    grid-column-end: 5;
+    
+ }
+ #item-5 {
+ 
+    background-color: #CAFFE2; 
+    grid-row-start: 2;
+    grid-column-start: 4;
+ 
+    grid-row-end: 3;
+    grid-column-end: 5;
+    
+ }
+
+ .grid_title{
+     text-align: left;
+     font-size: 30px;
+     font-family: Ubuntu-Bold,AdobeInvisFont,MyriadPro-Regular;
+     color: #696969;
+     margin-left: 50px;
+     margin-right: 20px;
+     margin-top: 60px;
+ }
+
+ p{
+     font-size: 20px;
+     text-transform: uppercase;
+     text-align: center;
+     margin-left: 10px;
+     font-family: Ubuntu,AdobeInvisFont,MyriadPro-Regular;
+     color: #999999;
+     margin-right: 10px;
+ }
+ 
+
+ .green_title{
+     font-size: 30px;
+     text-align: center;
+     margin-left: 10px;
+     margin-right: 10px;
+     font-family: Ubuntu-Bold,AdobeInvisFont,MyriadPro-Regular;
+     color: #93D08B;
+     margin-top: 50px;
+ }
+
+ .news{
+     margin-top: 45px;
+     text-decoration: underline;
+     font-size: 20px;
+     color: #93D08B;
+ }
+
+ .block_elem{
+     text-align: left;
+     margin-right: 50px;
+     margin-left: 50px;
+     font-size: 30px;
+     color: #696969;
+     font-family: Ubuntu-Bold,AdobeInvisFont,MyriadPro-Regular;
+ }
+
+ .block_elem-service{
+     font-size: 20px;
+     text-align: left;
+     margin-left: 50px;
+     margin-top: 50px;
+ }
+
+ .block_button{
+     position: relative;
+     margin-top: 90px;
+     margin-left: 50px;
+     font-size: 15px;
+     border-radius: 8px;
+     background-color: #93D08B;
+     border: greenyellow;
+ }
+
+ 
+.white_title{
+    font-weight: bolder;
+    text-align: left;
+    font-size: 17px;
+    font-family: Ubuntu-Bold,AdobeInvisFont,MyriadPro-Regular;
+    color: #696969;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 80px;
+}
+
+.block_elem_third{
+     text-align: left;
+     margin-right: 50px;
+     margin-left: 50px;
+     font-size: 30px;
+     color: #696969;
+     font-family: Ubuntu-Bold,AdobeInvisFont,MyriadPro-Regular;
+}
+
+.block_button_third{
+    position: relative;
+    margin-top: 90px;
+    margin-left: 50px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #FDC0E3;
+    border: rgb(187, 25, 165);
+}
+
+.grid_container_second{
+    display: grid; 
+    position: relative;
+ 
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 356px 356px 451px 356px;
+    
+    gap: 0px;
+    height: 100%;
+}
+
+  
+#item-6 {
+
+    background-color: #d8cabd; 
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 3;
+    grid-column-end: 2;
+    
+ }
+ #item-7 {
+ 
+    background-color: #CB7B7D; 
+    grid-row-start: 1;
+    grid-column-start: 2;
+ 
+    grid-row-end: 2;
+    grid-column-end: 3;
+    
+ }
+ #item-8 {
+ 
+    background-color: #596599; 
+    grid-row-start: 1;
+    grid-column-start: 3;
+ 
+    grid-row-end: 2;
+    grid-column-end: 4;
+    
+ }
+ #item-9 {
+ 
+    background-color: #000000; 
+    grid-row-start: 1;
+    grid-column-start: 4;
+ 
+    grid-row-end: 2;
+    grid-column-end: 5;
+    
+ }
+ #item-10 {
+ 
+    background-color: #ECDFD5; 
+    grid-row-start: 2;
+    grid-column-start: 2;
+ 
+    grid-row-end: 3;
+    grid-column-end: 3;
+    
+ }
+ #item-11 {
+ 
+    background-color: #FDCDC0; 
+    grid-row-start: 2;
+    grid-column-start: 3;
+ 
+    grid-row-end: 3;
+    grid-column-end: 4;
+    
+ }
+ #item-12 {
+ 
+    background-color: #D9E4A6; 
+    grid-row-start: 2;
+    grid-column-start: 4;
+ 
+    grid-row-end: 3;
+    grid-column-end: 5;
+    
+ }
+
+ .container_item_six{
+     position: relative;
+     margin: 230px;
+ }
+ 
+ .img_six{
+     position: relative;
+     margin-left: -70px;
+     margin-top: 65px;
+ }
+
+ .title_item_six{
+     margin-top: -320px;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: Ubuntu-Bold,AdobeInvisFont,MyriadPro-Regular;
+    font-weight: bold;
+    text-align: center;
+    color: #202020;
+  }
+
+  .img_one{
+      height: 300px;
+  }
+
+  .img_two{
+      height: 300px;
+  }
+
+  .img_three{
+      height: 300px;
+  }
+
+  .block_elem_fourh{
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+    color: #696969;
+    font-family: Ubuntu-Bold,AdobeInvisFont,MyriadPro-Regular;
+}
+
+.block_button_fourh{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #EEB008;
+    border: rgb(187, 25, 165);
+}
+
+.camera_first{
+    padding-left: 266px;
+    margin: 11px;
+    color: #696969;
+}
+
+.block_elem_fifth{
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+    color: #696969;
+    font-family: Ubuntu-Bold,AdobeInvisFont,MyriadPro-Regular;
+}
+
+.camera_second{
+    padding-left: 359px;
+    margin: 11px;
+    color: #696969;
+}
+
+.block_button_fifth{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #93D08B;
+    border: rgb(187, 25, 165);
+}
+
+.block_button_six{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #FD6D4C;
+    border: rgb(187, 25, 165);
+}
+
+.camera_third{
+    padding-left: 298px;
+    margin: -42px;
+    color: #696969;
+}
+
+.block_elem_six{
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+    color: #696969;
+    font-family: Ubuntu-Bold,AdobeInvisFont,MyriadPro-Regular;
+}
+
+/* .additional_flex_container{
+    position: absolute;
+    
+}
+
+.flex-container {
+
+    display: flex;
+         
+
+    background-color: #bbdefb;
+    height: 100%;
+ 
+
+  }
+
+  .flex-container > div{
+    background: #fdbe00;
+    border-bottom: 1px black;
+    padding: 8px;
+  } */
+
+
+
+  .additional_flex_container{
+      position: relative;
+  }
+
+  .flex-container {
+    display: flex; 
+    height: 100%;
+  }
+
+  .container_last{
+      position: relative;
+  }
+
+  .image_ten{
+      margin-top: -4px;
+  }
+
+  .flex-container_last {
+    display: flex;
+    position: relative;    
+    height: 100%;
+  }
+
+  .item_one{
+    margin: -600px;
+    margin-left: 70px;
+    font-size: 500px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    font-family: Ubuntu-Bold,AdobeInvisFont,MyriadPro-Regular;
+  }
+
+  .left{
+      color: whitesmoke;
+      font-size: 30px;
+      text-align: left;
+  }
+  
+  .europe{
+    margin: 350px;
+    margin-left: -600px;
+    border-radius: 8px;
+    background-color: #FACF8C;
+    border: midnightblue;
+}
+
+.flex_item_last{
+    flex: auto;
+    margin: 0 50px;
+    font-family: Ubuntu-Bold,AdobeInvisFont,MyriadPro-Regular;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+  
+
+.flex-container_last{
+    display: flex;
+    position: relative;    
+    height: 100%;
+  }
+
+  .item1,.item2,.item3,.item4{
+      margin-top: -4px;
+  }
+
+
+  .buttons{
+    margin: -200px;
+    margin-left: 900px;
+
+  }
+
+
+
